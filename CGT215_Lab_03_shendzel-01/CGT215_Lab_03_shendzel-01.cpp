@@ -7,7 +7,7 @@ void printMenu(int& choice) {
 	cout << "Welcome to my program, please select an operation to perform:" << endl;
 	cout << "1. Multiply" << endl;
 	cout << "2. Division" << endl;
-	cout << "3. Addition" << endl;
+	cout << "3. Addition" << endl; //tried to make this exponential but I'm not sure how to write the code for that
 	cout << "\nYour Selection: ";
 	cin >> choice;
 }
@@ -26,7 +26,7 @@ void secondChoice(float A, float B) {
 	cout << A << "/" << B << " = " << A/B << endl;
 }
 void thirdChoice(float A, float B) {
-	cout << A << " + " << B << " = " << A + B << endl;
+	cout << A << " + " << B << " = " << A + B << endl; //after running the code a few times, it finally clicked for me how it worked, which let me to make the third choice easily
 }
 int main() {
 	int choice;
